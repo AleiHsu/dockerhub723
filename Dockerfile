@@ -1,7 +1,6 @@
 # 这是迅雷云监工的docker程序
 # 云监工原作者powergx,所有贡献者,所有被我抄袭的大神以及CCTV
 
-
 FROM tutum/ubuntu:trusty
 
 

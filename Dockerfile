@@ -1,6 +1,6 @@
 # 这是迅雷云监工的docker程序
 # 云监工原作者powergx,所有贡献者以及CCTV
-# 如有疑问与侵权请联系本田qq 369053525
+
 FROM tutum/ubuntu:trusty
 
 
@@ -17,7 +17,7 @@ RUN mkdir /app
 WORKDIR /app
 
 #下载云监工源代码
-RUN git clone https://github.com/ccav14/crysadm.git
+RUN git clone https://github.com/ccav14/723.git
 
 #redis数据库保存目录
 VOLUME ["/var/lib/redis"]
